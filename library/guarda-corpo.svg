@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#d9f0f5" stop-opacity=".85"/>
+  <stop offset=".55" stop-color="#a9d3df" stop-opacity=".55"/>
+  <stop offset="1" stop-color="#7fb6c7" stop-opacity=".7"/>
+ </linearGradient>
+ <linearGradient id="glass2" x1="1" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#e4f5f8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#8fc0cf" stop-opacity=".6"/>
+ </linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#f4f6f8"/><stop offset=".45" stop-color="#b9c1ca"/><stop offset=".55" stop-color="#9aa4af"/><stop offset="1" stop-color="#dfe3e8"/>
+ </linearGradient>
+ <linearGradient id="metalv" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#eef1f4"/><stop offset=".5" stop-color="#a8b1bb"/><stop offset="1" stop-color="#e3e7eb"/>
+ </linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#5fa39a"/><stop offset="1" stop-color="#9fd1c7"/>
+ </linearGradient>
+ <radialGradient id="shadow" cx=".5" cy=".5" r=".5">
+  <stop offset="0" stop-color="#0b2240" stop-opacity=".28"/><stop offset="1" stop-color="#0b2240" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+ </linearGradient>
+ <linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#eef4f8"/><stop offset=".4" stop-color="#c3d2de"/><stop offset=".7" stop-color="#e8eff4"/><stop offset="1" stop-color="#a9bccb"/>
+ </linearGradient>
+</defs><ellipse cx="400" cy="640" rx="360" ry="30" fill="url(#shadow)"/>
+<rect x="40" y="600" width="720" height="34" rx="4" fill="#d5dbe1"/><rect x="40" y="600" width="720" height="8" fill="#eef1f4"/>
+<rect x="60" y="250" width="220" height="350" fill="url(#glass)" stroke="#7fb0bf" stroke-width="3"/><rect x="100" y="300" width="30" height="250" fill="url(#shine)" transform="rotate(16 115 425)" opacity=".8"/><rect x="180" y="320" width="12" height="200" fill="url(#shine)" transform="rotate(16 186 420)" opacity=".8"/><rect x="80" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/><rect x="236" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/><rect x="292" y="250" width="220" height="350" fill="url(#glass)" stroke="#7fb0bf" stroke-width="3"/><rect x="332" y="300" width="30" height="250" fill="url(#shine)" transform="rotate(16 347 425)" opacity=".8"/><rect x="412" y="320" width="12" height="200" fill="url(#shine)" transform="rotate(16 418 420)" opacity=".8"/><rect x="312" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/><rect x="468" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/><rect x="524" y="250" width="220" height="350" fill="url(#glass)" stroke="#7fb0bf" stroke-width="3"/><rect x="564" y="300" width="30" height="250" fill="url(#shine)" transform="rotate(16 579 425)" opacity=".8"/><rect x="644" y="320" width="12" height="200" fill="url(#shine)" transform="rotate(16 650 420)" opacity=".8"/><rect x="544" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/><rect x="700" y="560" width="24" height="44" rx="3" fill="url(#metalv)"/>
+<rect x="44" y="224" width="712" height="28" rx="14" fill="url(#metal)" stroke="#9aa4af" stroke-width="2"/></svg>
